@@ -44,7 +44,6 @@ app.controller("myCtrl", function ($scope, hashCode, mod, convertToHex) {
         const canvasWidth = 280;
         const padding = 20;
 
-        let i = 0;
         let v = 0;
         let h = 0;
 
