@@ -1,0 +1,20 @@
+<html>
+<title></title>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body data-ng-app="iconGenerator" data-ng-controller="myCtrl">
+<div id="container">
+    <h2>PIconGenerator</h2>
+    <p>Enter your name and generate a PIcon!</p>
+    <input type="text" data-ng-model="username" data-ng-change="generateIcon()">
+    <canvas id="iconCanvas" width="280" height="280" style="background: #F8F9F9;">
+    </canvas>
+</div>
+
+</body>
+
+<script src="angular.min.js"></script>
+<script src="scripts.js"></script>
+</html>
